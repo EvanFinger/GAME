@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{9c9ae61c-14e1-45e0-8d3c-0a01964acb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{68832233-26d1-4e84-b0ca-522509ee00f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{ebdca135-19e0-4958-8836-48452ca1d60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{2de58296-d1ab-4056-888b-a0e8c3168a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tilemap">
+      <UniqueIdentifier>{3db7d33e-5e3d-4a60-8c4b-c4788f273936}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\AnimationComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\DamageComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\DurabilityComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\GraphicsSettings.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\Gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\HealthBar.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\HealthComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\heart.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\CharacterSelectState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\HitboxComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\MarksmanUpgradeState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\MovementComp.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\PauseMenu.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\SettingsState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\ShieldComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\stdafx.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\SwordUpgradeState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\Tile.h">
+      <Filter>Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\Tilemap.h">
+      <Filter>Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gaem\THE_WATCHERS\TricksterUpgradeState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\gaem\THE_WATCHERS\THE_WATCHERS.vcxproj">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\gaem\THE_WATCHERS\THE_WATCHERS.vcxproj.filters">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\gaem\THE_WATCHERS\THE_WATCHERS.vcxproj.user">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\AnimationComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\DamageComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\DurabilityComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\GraphicsSettings.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\Gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\HealthBar.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\HealthComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\heart.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\HitboxComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\CharacterSelectState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\MarksmanUpgradeState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\MovementComp.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\PauseMenu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\SettingsState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\ShieldComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\stdafx.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\SwordUpgradeState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\Tile.cpp">
+      <Filter>Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\Tilemap.cpp">
+      <Filter>Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gaem\THE_WATCHERS\TricksterUpgradeState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
